@@ -4,7 +4,15 @@ import streamlit as st
 import pickle
 import numpy as np
 import time
+import os
 
+path = "https://raw.githubusercontent.com/iamnatapong55/Apps-Deployment/main/survey_results_public2.csv"
+filename = st.text_input(path)
+try:
+    with open(filename) as input
+        st.text(input.read())
+except FileNotFoundError:
+    st.error('File Not Found')
 
 def shorten_categories(categories, cutoff):
     categorical_map = {}
