@@ -1,8 +1,5 @@
-streamlit
+streamlit==1.1.*
 pandas
 sklearn
 pickle
 numpy
-time
-matplotlib
-warnings
