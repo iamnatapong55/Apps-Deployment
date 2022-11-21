@@ -32,7 +32,7 @@ def clean_education(x):
 
 @st.cache
 def load_data():
-    df = pd.read_csv("survey_results_public.csv")
+    df = pd.read_csv("survey_results_public2.csv")
     df = df[["Country", "EdLevel", "YearsCodePro", "ConvertedCompYearly"]]
     df = df[df["ConvertedCompYearly"].notnull()]
     df = df.dropna()
