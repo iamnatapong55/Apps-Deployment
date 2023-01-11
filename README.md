@@ -8,3 +8,5 @@ Python Packages: Pandas, Sklearn
 Algorithm: LinearRegression, DecisionTreeRegressor, RandomForestRegressor
 Optimization: GridSearchCV
 Metrics: mean squared error, mean absolute error
+
+Web Application: https://iamnatapong55-apps-deployment-app2-eqpuoo.streamlit.app/
